@@ -1,0 +1,11 @@
+{
+  "name": "projekt_via",
+  "version": "1.0.0",
+  "description": "projekt do predmetu via",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VYC0028",
+  "license": "ISC"
+}
