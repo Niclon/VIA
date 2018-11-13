@@ -1,0 +1,33 @@
+.control-panel{
+    height: 80px;
+}
+.main {
+    /*width: 80%;*/
+    /*margin-left: 10%;*/
+}
+body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.white-page{
+    background-color: white;
+}
+.navigation-pading{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.remove-padding{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.slider-container{
+    height: 600px;
+}
+.carousel-inner > .carousel-item > img{
+    height: 600px;
+}
+.info-divs{
+    padding-top: 40px;
+}
