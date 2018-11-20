@@ -10,6 +10,9 @@
     <link href="../../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="../../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>-->
+    <!--<script type='text/javascript' src='http://skyblueenglish.co.uk/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4'></script>-->
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />-->
     <script src="../js/app.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/app.css">
 </head>
@@ -42,13 +45,13 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="../img/bead1.jpg" alt="First slide">
+                        <img class="d-block w-100" src="../img/beads4.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/bead2.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="../img/beads5.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/bead3.jpg" alt="Third slide">
+                        <img class="d-block w-100" src="../img/beads6.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -66,17 +69,67 @@
     <div class="container white-page">
         <div class="container info-divs">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 article">
                     <h6> <i class="fas fa-book-open"></i> Nový design </h6>
                     <p>Připravili jsme si nejen nový design korálků, ale také spoustu dalších věcí.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 article">
                     <h6><i class="fas fa-video"></i> Nové tutoriály </h6>
                     <p> Každou druhou neděli vám připravujeme HD tutoriáli jak si vyrobit šperky z našich produktů.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 article">
                     <h6><i class="far fa-smile-beam"></i> Širový výběr materiálu</h6>
                     <p> Máme širový výběr materiálů, který stále narůstá. Každým dnem naše firma vzrůstá abychom vyhověli i těm nejmenším zákazníkům</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container white-page">
+        <div class="container">
+            <div class="thumbnail-divs">
+                <div class="row info-divs">
+                    <div class="col-md-3">
+                        <a href="#" id="thumb-0">
+                            <img src="../img/beads6.jpg" class="img-thumbnail fancybox" />
+                        </a>
+
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" id="thumb-1">
+                            <img src="../img/beads7.jpg" class="img-thumbnail fancybox" />
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" id="thumb-2">
+                            <img src="../img/beads8.jpg" class="img-thumbnail fancybox" />
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" id="thumb-3">
+                            <img src="../img/beads9.jpg" class="img-thumbnail fancybox" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="myModal" class="modal fade remove-padding" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                    <div class="modal-body" id="pictureDiv">
+                    <img src="../img/bead2.jpg" class="img-responsive">
                 </div>
             </div>
         </div>
