@@ -24,8 +24,6 @@ function createOnClickThumbnailModals(){
         updateModalPicture($("#thumb-3").children()[0].src);
         showModal();
     });
-
-
 }
 
 function updateModalPicture(pathToPic) {
@@ -39,7 +37,5 @@ function showModal() {
 function createImageNode(pic) {
     var picture = document.createElement("IMG");
     picture.setAttribute("src",pic);
-
-
     return picture;
 }
