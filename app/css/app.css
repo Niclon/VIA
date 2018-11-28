@@ -20,12 +20,13 @@ body{
     color: rgb(163, 163, 163);
 }
 .black-page h6{
-    color: rgb(80, 89, 90);
+    color: rgb(163, 163, 163);
+    padding-bottom: 15px;
 }
 .shadow-effect {
-    -moz-box-shadow: 0 15px 10px 4px #888;
-    -webkit-box-shadow: 0 15px 10px 4px #888;
-    box-shadow: 0px 10px 20px 0px #888
+    /*-moz-box-shadow: 0 15px 10px 4px #888;*/
+    /*-webkit-box-shadow: 0 15px 10px 4px #888;*/
+    /*box-shadow: 0px 10px 20px 0px #888*/
 }
 .navigation-pading{
     padding-top: 40px;
@@ -45,6 +46,10 @@ body{
 }
 .info-divs{
     padding-top: 70px;
+}
+.footer-divs{
+    padding-top: 70px;
+    min-height: 450px;
 }
 .container{
     padding-left: 40px;
@@ -83,4 +88,26 @@ body .modal-dialog {
     -moz-transform: scale(1.03,1.03);
     -webkit-transform: scale(1.03,1.03);
     transform: scale(1.03,1.03);
+}
+.thumbnail-divs{
+    padding-bottom: 20px;
+    min-height: 350px;
+}
+.sponsors-divs {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.photo-album > .row {
+    padding-bottom: 10px;
+}
+.resize-logo {
+    width: 160px;
+    height: 80px;
+}
+.bottom-footer {
+    height: 50px;
+    background-color: #222222;
+    color: rgb(163, 163, 163);
+    text-align: center;
 }
