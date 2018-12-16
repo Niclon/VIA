@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: "Times New Roman", Times, serif;
 }
 .white-page{
     background-color: white;
@@ -120,7 +121,7 @@ body .modal-dialog {
     width: 100%;
 }
 .banner {
-    background-color: #cbd418;
+    background-color: #ffd400;
     height: 200px;
 }
 .banner-text {
@@ -153,7 +154,92 @@ body .modal-dialog {
 .social-media > button > i {
     color: white;
 }
+.contact-form {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-form label {
+    font-weight: bold;
+}
+#name {
+    width: 50%;
+}
+#email{
+    width: 50%;
+}
+.spacing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form-divs {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.box {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-color: black;
+    text-align: center;
+}
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.hashdivs span {
+    margin-right: 20px;
+    font-style: italic
+}
+.blog-post div {
+    padding-bottom: 10px;
+}
+.blog-post {
+    padding-bottom: 80px;
+    border-bottom: 2px solid #80808036;
+    padding-top: 40px;
+}
+.spacing-m {
+    padding-top: 60px;
+}
+.title {
+    font-weight: 900;
+    font-size: 44px;
+}
+iframe {
+    width: 100%    !important;
+    height: 100%   !important;
+}
+.pagination-mine .page-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pagination-mine a {
+    background-color: #b7adad8a;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.pagination-mine .active {
+    background-color: #ffc107;
+}
+.pagination-mine .page-link {
+    padding: 0.4rem 0.65rem;
+}
+.pagination-mine {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
-
-
-
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}

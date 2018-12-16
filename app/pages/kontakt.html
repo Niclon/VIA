@@ -31,7 +31,7 @@
                     <ul class="nav navbar-nav navbar-right ">
                         <li class="nav-item"><a class="nav-link" href="/Projekt/app/pages/index.html">Úvod</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Projekt/app/pages/blog.html">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="/Projekt/app/pages/kontakt.html">Kontakt</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Purchase</a></li>
@@ -55,11 +55,28 @@
     </div>
 
     <!--kontakt info-->
-    <div class="container info-divs">
+    <div class="container form-divs">
         <div class="row">
             <div class="col-md-8">
                 <div class="contact-form">
+                    <h3> Zůstaňte v kontaktu </h3>
+                    Usilovně se snažíme zlepšovat naše produkty. Jen díky vaší zpětné vazbě se můžeme posouvat kupředu a za to vám děkujeme. Pokuď by jste měli jakékoliv otázky zanechte nám zde otázku a kontakt na vás a my vám odpovíme.
 
+                    <form class="spacing" >
+                        <div class="form-group">
+                            <label for="name"> Jméno </label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Email</label>
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message"> Zpráva</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning"> Odeslat dotaz </button>
+                    </form>
 
                 </div>
 
