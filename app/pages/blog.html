@@ -12,6 +12,7 @@
     <link href="../../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/app.css">
+    <script src="../js/blog.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Archivo+Narrow&subset=latin,latin-e" >
 
 </head>
@@ -145,21 +146,194 @@
                 </nav>
             </div>
             <div class="col-md-4">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2 top-margin" type="search" placeholder="Search" aria-label="Search">
+
+                <div class="category-div top-margin-m">
+                    <h5><strong>Kategorie</strong> </h5>
+                   <div class="listofcategories">
+                       <ul class="list-group list-group-flush">
+                           <li class="list-group-item"><a href="#">Výtvory</a> </li>
+                           <li class="list-group-item"><a href="#">Odlišnost je krása</a></li>
+                           <li class="list-group-item"><a href="#">Ukaž co je v tobě</a></li>
+                           <li class="list-group-item"><a href="#">Korálková přehlídka</a></li>
+                           <li class="list-group-item"><a href="#">Srazy</a></li>
+                           <li class="list-group-item"><a href="#">Behind the scenes</a></li>
+                       </ul>
+                   </div>
+                </div>
+
+                <div class="text-widget">
+                    <h5><strong>Sdělení</strong> </h5>
+                    <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer imperdiet lectus quis justo. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Nullam lectus justo</p>
+                </div>
+
+                <div class="recent-post top-margin-m">
+                    <h5><strong>Poslední příspěvky</strong></h5>
+                    <a href="#">
+                        <div class="post">
+                            <img src="../img/photo4.png">
+                            <div>
+                                <p class="side-post-title"><h5>Integer imperdiet lectus quis.</h5></p>
+                                <p class="hashdivs"> 12.prosinec.2017 </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="post">
+                            <img src="../img/photo2.png">
+                            <div>
+                                <p class="side-post-title"><h5>Nullam lectus justo. </h5></p>
+                                <p class="hashdivs"> 22.leden.2017 </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="post">
+                            <img src="../img/photo2.png">
+                            <div>
+                                <p class="side-post-title"><h5>Nullam sapien sem. </h5></p>
+                                <p class="hashdivs"> 22.leden.2017 </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="tabs-widged top-margin-m">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab-custom" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Nedávné</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Populární</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="recent-post">
+                                <a href="#">
+                                    <div class="post">
+                                        <img src="../img/photo4.png">
+                                        <div>
+                                            <p class="side-post-title"><h5>Integer imperdiet lectus quis.</h5></p>
+                                            <p class="hashdivs"> 12.prosinec.2017 </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="post">
+                                        <img src="../img/photo2.png">
+                                        <div>
+                                            <p class="side-post-title"><h5>Nullam lectus justo. </h5></p>
+                                            <p class="hashdivs"> 22.leden.2017 </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="post">
+                                        <img src="../img/photo2.png">
+                                        <div>
+                                            <p class="side-post-title"><h5>Nullam sapien sem. </h5></p>
+                                            <p class="hashdivs"> 12.leden.2017 </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="recent-post">
+                                <a href="#">
+                                    <div class="post">
+                                        <img src="../img/photo2.png">
+                                        <div>
+                                            <p class="side-post-title"><h5>Nullam sapien sem. </h5></p>
+                                            <p class="hashdivs"> 22.leden.2017 </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="post">
+                                        <img src="../img/photo2.png">
+                                        <div>
+                                            <p class="side-post-title"><h5>Nullam lectus justo. </h5></p>
+                                            <p class="hashdivs"> 22.únor.2017 </p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="post">
+                                        <img src="../img/photo4.png">
+                                        <div>
+                                            <p class="side-post-title"><h5>Integer imperdiet lectus quis.</h5></p>
+                                            <p class="hashdivs"> 12.prosinec.2017 </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="last-widget top-margin-m">
+                    <h5><strong>Last widget</strong></h5>
+                    <div class="last-widget-div">
+                        <ul id="last-widget-list" class="list-group list-group-flush">
+                            <div>
+                                <li class="list-group-item active"><a href="#" onclick="changeItemInList(this)">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Výtvory</a> </li>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer imperdiet lectus quis justo. Nullam sapien sem, ornare ac, nonummy non
+                                </p>
+                            </div>
+                            <div>
+                                <li class="list-group-item"><a href="#" onclick="changeItemInList(this)">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Odlišnost je krása</a></li>
+
+                                <p class="no-display">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer imperdiet lectus quis justo. Nullam sapien sem, ornare ac, nonummy non
+                                </p>
+                            </div>
+                            <div>
+                                <li class="list-group-item"><a href="#" onclick="changeItemInList(this)">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Ukaž co je v tobě</a></li>
+                                <p class="no-display">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer imperdiet lectus quis justo. Nullam sapien sem, ornare ac, nonummy non
+                                </p>
+                            </div>
+                            <div>
+                                <li class="list-group-item"><a href="#" onclick="changeItemInList(this)">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Behind the scenes</a></li>
+                                <p class="no-display">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer imperdiet lectus quis justo. Nullam sapien sem, ornare ac, nonummy non
+                                </p>
+                            </div>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+                <div class="last-tweets top-margin-m">
+                    <h5><strong>Last Tweets</strong></h5>
+                </div>
+
+                <div class="photo-feed top-margin-m">
+                    <h5><strong>Photo feed</strong></h5>
+                            <a href="#"><img src="../img/photo1.png"></a>
+                            <a href="#"><img src="../img/photo2.png"></a>
+                            <a href="#"><img src="../img/photo3.png"></a>
+                            <a href="#"><img src="../img/photo4.png"></a>
+                    <br>
+                            <a href="#"><img src="../img/photo5.png"></a>
+                            <a href="#"><img src="../img/photo6.png"></a>
+                            <a href="#"><img src="../img/photo7.png"></a>
+                            <a href="#"><img src="../img/photo8.png"></a>
+                </div>
             </div>
         </div>
-
-
-
-
     </div>
-
-
-
-
-
-
-
 </div>
 
 
@@ -184,30 +358,30 @@
                         <h6>Fotoalbum</h6>
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="../img/photo1.png">
+                                <a href="#"><img src="../img/photo1.png"></a>
                             </div>
                             <div class="col-md-3">
-                                <img src="../img/photo2.png">
+                                <a href="#"><img src="../img/photo2.png"></a>
                             </div>
                             <div class="col-md-3">
-                                <img src="../img/photo3.png">
+                                <a href="#"><img src="../img/photo3.png"></a>
                             </div>
                             <div class="col-md-3">
-                                <img src="../img/photo4.png">
+                                <a href="#"><img src="../img/photo4.png"></a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <img src="../img/photo5.png">
+                                <a href="#"><img src="../img/photo5.png"></a>
                             </div>
                             <div class="col-md-3">
-                                <img src="../img/photo6.png">
+                                <a href="#"><img src="../img/photo6.png"></a>
                             </div>
                             <div class="col-md-3">
-                                <img src="../img/photo7.png">
+                                <a href="#"><img src="../img/photo7.png"></a>
                             </div>
                             <div class="col-md-3">
-                                <img src="../img/photo8.png">
+                                <a href="#"><img src="../img/photo8.png"></a>
                             </div>
                         </div>
 
