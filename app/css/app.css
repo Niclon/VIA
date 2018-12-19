@@ -372,3 +372,7 @@ iframe {
     margin-top: 15px;
     border-radius: 7px;
 }
+.box-for-api {
+    height: 100%;
+    width: 100%;
+}

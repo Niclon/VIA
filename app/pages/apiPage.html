@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../js/apiPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="container white-page navigation-pading shadow-effect">
+        <nav class="navbar navbar-expand-lg  navbar-light">
+            <a class="navbar-brand " href="#">
+                <img src="../img/logo.png"/>
+            </a>
+
+            <div class="navbar-collapse navbar-right justify-content-md-end">
+                <div>
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li class="nav-item"><a class="nav-link" href="/Projekt/app/pages/index.html">Úvod</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Projekt/app/pages/blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Projekt/app/pages/kontakt.html">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Projekt/app/pages/apiPage.html">Purchase</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container white-page">
+
+            Jméno města: <input type="text" id="cityname" class="form-control" ><br>
+            <!--<button id="submitButton" class="btn btn-success">Run</button>-->
+            <button id="forecastButton" class="btn btn-success">Run forecast</button>
+
+        <div class="box-for-api">
+            <canvas id="myChart" width="100%" height="100%"></canvas>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
